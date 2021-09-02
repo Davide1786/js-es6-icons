@@ -31,13 +31,25 @@ body {
 /* Fine Header */
 /* -------------------------------------------------- */
 /* Inizio Main */
+
+.search {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 70px;
+   padding: 5px;
+   font-size: 110%;
+   color: white;
+   background-color: rgb(0, 174, 255);
+}
+
 #icone {
    display: flex;
    justify-content: space-between;
    align-items: flex-start;
    flex-wrap: wrap;
    width: 100%;
-   height: calc(100% - 140px);
+   height: calc(100% - 210px);
    background-color: #DDDDDD;
 }
 
